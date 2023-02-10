@@ -1,71 +1,99 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <style> 
-    .header {
-      background-color: lightblue;
+
+<head>
+  
+  <title>My Personal Website</title>
+  <style>
+    
+      .header {
+      background-color: cornflowerblue;
       text-align: center;
       padding: 20px;
     }
 
     .bio {
+      background-color: wheat;
       text-align: center;
       padding: 20px;
     }
 
-    .contact {
-      background-color: lightgray;
+    .contact-info {
+      background-color:lightblue;
       text-align: center;
       padding: 20px;
     }
-
-    .row{
+     footer {
+      background-color:coral;
+      text-align: center;
+     }
+    .header {
       display: flex;
-      justify-content: center;
+      flex-direction: column;
+      align-items: center;
     }
 
-    .column {
-      margin: 10px;
+    .profile-picture {
+      width: 500px;
+      height: 500px;
+      border-radius: 50%;
+      margin-top: 20px;
+    }
+
+    .info {
+      margin-top: 20px;
+    }
+
+    .contact-info {
+      margin-top: 20px;
+    }
+
+    .bio {
+      margin-top: 20px;
+      width: 1200px;
       text-align: center;
     }
 
-    .image {
-      width: 100%;
-      height: auto;
-      border-radius: 50%;
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 20px;
     }
-    </style>
-  </head>
-  <body>
-    <div class="header">
-      <h1>Auqib Javaid</h1>
-    </div>
 
-    <div class="bio">
-      <p>My name is Auqib Javaid and i am a computer science postgraduate and i am from hanjoora chadoora</p>
-    </div>
+    .gallery-item {
+      width: 33.33%;
+      height: 200px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>AUQIB JAVAID</h1>
+    <img class="profile-picture" src="C:\Users\Auqib Javaid\Desktop\My personal website\IMG_20220622_202606_917.jpg" alt="Profile Picture">
+    <div class="info">
+      <h2>Contact Information</h2>
+      <p class="contact-info">Email: itzwaniaquibm@gmail.com</p>
+      <p class="contact-info">Phone: 7006280441</p>
+      <p class="contact-info">Address: Hanjoora Chadoora</p>
+      <p class="contact-info">Pincode: 191113</p>
+        
       
-
-    <div class="row">
-      <div class="coloumn">
-        <img class="image" src="C:\Users\Auqib Javaid\Desktop\mywebsite\FB_IMG_1610781144867.jpg" alt="your img">
-      </div>
+    
     </div>
-
-    <div class="contact">
-      <p>contact information:</p>
-      <p>Email: auqibjavaid.101@gmail.com</p>
-      <p>Phone no.: 7006280441</p>
-      <p>Address : Hanjoora chadoora</p>
+    <h2>Bio</h2>
+    <p class="bio"><em>“ Hi myself Auqib Javaid and i am a computer science postgraduate from Kashmir University I'm highly motivated and am extremely passionate about developing. I am known for completing projects ahead of deadlines, and I feel this is especially important when things are constantly evolving and changing</em></p>
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img class="gallery-item" src="C:\Users\Auqib Javaid\Desktop\My personal website\IMG_20210713_130130_089.jpg" alt="Gallery Image 1">
+      <img class="gallery-item" src="C:\Users\Auqib Javaid\Desktop\My personal website\IMG_20210719_164419_168.jpg" alt="Gallery Image 2">
+      <img class="gallery-item" src="C:\Users\Auqib Javaid\Desktop\My personal website\IMG_20210726_161002_933.jpg" alt="Gallery Image 3">
     </div>
-  </body>
+  </div>
+  <footer>
+    <p>copyright &copy 2023 Wani Auqib.</p>
+  </footer>
+</body>
+
 </html>
-
-
-        
-
-        
-      
-    
-    
-  
